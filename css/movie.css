@@ -1,0 +1,43 @@
+html{
+	
+}
+body{
+    background: linear-gradient(to bottom right, rgba(139, 232, 255, 0.4) 20%,  rgba(255, 252, 84, 0.4) 80% );
+}
+.member{
+	margin: 0px;
+	width: 19%;
+	border-style: groove;
+	border-color: #ccc;
+	border-width: 3px;
+}
+
+#hahaha{
+	line-height: 100px; 
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 52px;
+}
+.introduce{
+	width: 95%;
+	margin-left: 2.5%;
+}
+.introduction{
+	display: none;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+p{
+	font-size: 20px;
+	text-align: left;
+}
+#close{
+	position: fixed;
+	background-image: url(../images/close.png);
+	background-size: contain;
+	bottom: 150px;
+	right: -75px;
+	width: 75px;
+	height: 75px;
+	transition: 1s;
+}

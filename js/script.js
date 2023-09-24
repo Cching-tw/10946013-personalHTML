@@ -1,0 +1,10 @@
+$(function(){
+	$("#id").click(function(){
+		$("#storejp").fadeIn(500);
+		$("#storech").fadeOut(0);
+	});
+	$("#ch").click(function(){
+		$("#storech").fadeIn(500);
+		$("#storejp").fadeOut(0);
+	});
+});
